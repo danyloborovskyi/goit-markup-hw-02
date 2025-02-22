@@ -161,6 +161,8 @@ header {
   color: var(--ocean);
 }
 
+
+
 /* HERO */
 
 .container-hero {
@@ -201,4 +203,72 @@ header {
   padding: 16px 32px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: var(--iris);
+}
+
+
+
+/* FEATURES */
+.features-title {
+  display: none;
+}
+
+.features-list {
+  display: flex;
+}
+.features-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.features-icon-wrapper {
+  background-color: var(--cloud);
+  padding: 23px 100px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;  
+  margin-bottom: 8px;
+}
+
+.features-item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.feature-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  margin-bottom: 8px;
+}
+.feature-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+
+
+/* OUR TEAM */
+
+.container-employee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.employee-list {
+  display: flex;
+
+}
+.employee-item {
+}
+.social-media-list {
+}
+.social-media-item {
+}
+.social-media-icon {
 }
