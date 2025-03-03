@@ -390,7 +390,7 @@ main {
 }
 
 .social-media-icon {
-  fill: var(--white);
+  fill: var(--light);
   transition: fill var(--function);
 }
 
@@ -398,13 +398,6 @@ main {
 .social-media-link:focus {
   background-color: var(--success);
 }
-
-.social-media-link:hover .social-media-icon,
-.social-media-link:focus .social-media-icon {
-  /* fill: var(--light); */
-  fill: black;
-}
-
 
 /* PORTFOLIO */
 
