@@ -1157,7 +1157,7 @@ main {
   top: 50%;
   transform: translateY(-50%);
   left: 0;
-  background-image: url(/svg/checkbox.svg);
+  background-image: url(../svg/checkbox.svg);
   opacity: 0;
   transition: opacity var(--function);
 }
